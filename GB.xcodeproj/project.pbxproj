@@ -99,14 +99,10 @@
 		354F1D4D2897E940008061E0 /* GB */ = {
 			isa = PBXGroup;
 			children = (
-				354F1D852897F264008061E0 /* Environments */,
-				354F1D842897F259008061E0 /* Resources */,
-				354F1D832897F251008061E0 /* Core */,
-				354F1D822897F245008061E0 /* Flows */,
-				354F1D812897F23B008061E0 /* Assembly */,
-				354F1D802897F22A008061E0 /* Entity */,
-				354F1D7F2897F21F008061E0 /* BusinessLogic */,
 				354F1D7E2897F214008061E0 /* App */,
+				354F1D832897F251008061E0 /* Core */,
+				354F1D842897F259008061E0 /* Resources */,
+				354F1D852897F264008061E0 /* Environments */,
 				354F1D4E2897E940008061E0 /* AppDelegate.swift */,
 				354F1D502897E940008061E0 /* SceneDelegate.swift */,
 				354F1D522897E940008061E0 /* ViewController.swift */,
@@ -138,6 +134,10 @@
 		354F1D7E2897F214008061E0 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				354F1D822897F245008061E0 /* Flows */,
+				354F1D812897F23B008061E0 /* Assembly */,
+				354F1D802897F22A008061E0 /* Entity */,
+				354F1D7F2897F21F008061E0 /* BusinessLogic */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -168,6 +168,7 @@
 			children = (
 			);
 			name = Flows;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		354F1D832897F251008061E0 /* Core */ = {
